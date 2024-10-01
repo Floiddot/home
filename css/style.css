@@ -82,3 +82,9 @@ a{
     right: 0;
     bottom: 0;
 }
+.kozep{
+    display: flex;
+    justify-content: center;
+    padding-top: 23%;
+    top: 100px;
+}
