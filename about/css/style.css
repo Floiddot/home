@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navtext {
+    color: white;
+}
+
+.current {
+    color:#f96e22
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    background-color: rgb(27, 27, 27);
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.tb {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 1000px;
+}
+
+th {
+    font-weight: 100;
+}
+
+.toptext {
+    text-align: center;
+    font-size: 50px;
+}
